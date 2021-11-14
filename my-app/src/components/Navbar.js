@@ -16,7 +16,7 @@ const styles = {
   },
 };
 
-function Navbar({ currentPage, handlePageChange }) {
+function Navbar({  handlePageChange }) {
   return (
     <div style={styles.card}>
       <div style={styles.heading}>
