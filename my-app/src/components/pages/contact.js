@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import {validateEmail} from '../../'
 
 function Form() {
   const [name, setName] = useState('');
