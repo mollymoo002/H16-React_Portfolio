@@ -1,6 +1,15 @@
 import React, { useState } from 'react';
 import {validateEmail} from '../../utils/helpers';
 
+const styles= {
+  input: {
+    width: "100%",
+    padding: "12px 20px",
+    margin: "8px 0",
+    boxSizing: "border-box"
+  },
+}
+
 function Form() {
   const [name, setName] = useState('');
   const [email, setEmail] = useState('');
@@ -40,6 +49,7 @@ function Form() {
           Submit
         </button>
       </form>
+      <a href="mailto:mollysingmaster@gmail.com">Click here to email me</a>
     </div>
   );
 }
