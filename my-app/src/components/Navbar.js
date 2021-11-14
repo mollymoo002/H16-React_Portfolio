@@ -18,20 +18,17 @@ const styles = {
 
 function Navbar({  handlePageChange }) {
   return (
-    <div style={styles.card}>
+    <div>
       <div style={styles.heading}>
         <a href="#about" onClick={() => handlePageChange("About")}>
           About Me
         </a>
       </div>
       <div style={styles.heading}>
-        <a href="#portfolio" onClick={() => handlePageChange("Portfolio")}>Portfolio</a>
+        <a href="#projects" onClick={() => handlePageChange("Projects")}>Projects</a>
       </div>
       <div style={styles.heading}>
         <a href="#contact" onClick={() => handlePageChange("Contact")}>Contact</a>
-      </div>
-      <div style={styles.heading}>
-        <a href="#resume">Resume</a>
       </div>
     </div>
   );
