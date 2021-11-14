@@ -2,6 +2,9 @@ import React from 'react';
 // Here we are importing a CSS file as a dependency
 import '../styles/Header.css';
 import Navbar from './Navbar';
+import About from './pages/about';
+import Projects from './pages/projects';
+import Contact from './pages/contact';
 
 function Header() {
   return (
