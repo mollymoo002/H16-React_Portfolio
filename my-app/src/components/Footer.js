@@ -20,8 +20,8 @@ const styles = {
 function Footer() {
   return (
     <div style={styles.footer}>
-      <div style={styles.feet}>Portfolio</div>
-      <div style={styles.feet}>Github</div>
+      <div style={styles.feet}><a href="https://mollymoo002.github.io/H2-Portfolio/" target="_blank">Portfolio</a></div>
+      <div style={styles.feet}><a href="https://github.com/mollymoo002" target="_blank">Github</a></div>
     </div>
   );
 }
