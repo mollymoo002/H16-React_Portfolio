@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/H16-React_Portfolio/static/css/main.1cf681dd.chunk.css",
+    "main.js": "/H16-React_Portfolio/static/js/main.49448e87.chunk.js",
+    "main.js.map": "/H16-React_Portfolio/static/js/main.49448e87.chunk.js.map",
+    "runtime-main.js": "/H16-React_Portfolio/static/js/runtime-main.9e7a57dd.js",
+    "runtime-main.js.map": "/H16-React_Portfolio/static/js/runtime-main.9e7a57dd.js.map",
+    "static/js/2.e56ca1f0.chunk.js": "/H16-React_Portfolio/static/js/2.e56ca1f0.chunk.js",
+    "static/js/2.e56ca1f0.chunk.js.map": "/H16-React_Portfolio/static/js/2.e56ca1f0.chunk.js.map",
+    "index.html": "/H16-React_Portfolio/index.html",
+    "static/css/main.1cf681dd.chunk.css.map": "/H16-React_Portfolio/static/css/main.1cf681dd.chunk.css.map",
+    "static/js/2.e56ca1f0.chunk.js.LICENSE.txt": "/H16-React_Portfolio/static/js/2.e56ca1f0.chunk.js.LICENSE.txt",
+    "static/media/Resume.863b3b71.pdf": "/H16-React_Portfolio/static/media/Resume.863b3b71.pdf",
+    "static/media/fitness.4f9346b0.JPG": "/H16-React_Portfolio/static/media/fitness.4f9346b0.JPG",
+    "static/media/moviemeal.838b736c.JPG": "/H16-React_Portfolio/static/media/moviemeal.838b736c.JPG",
+    "static/media/newtotown.7990bc70.JPG": "/H16-React_Portfolio/static/media/newtotown.7990bc70.JPG",
+    "static/media/notetaker.8447cafc.JPG": "/H16-React_Portfolio/static/media/notetaker.8447cafc.JPG",
+    "static/media/scheduler.23eec0ab.JPG": "/H16-React_Portfolio/static/media/scheduler.23eec0ab.JPG"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.9e7a57dd.js",
+    "static/js/2.e56ca1f0.chunk.js",
+    "static/css/main.1cf681dd.chunk.css",
+    "static/js/main.49448e87.chunk.js"
+  ]
+}
