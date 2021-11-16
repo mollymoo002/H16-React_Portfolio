@@ -2,12 +2,21 @@ import React, { useState } from 'react';
 import {validateEmail} from '../../utils/helpers';
 
 const styles= {
-  input: {
+  inputs: {
     width: "100%",
     padding: "12px 20px",
     margin: "8px 0",
     boxSizing: "border-box"
   },
+  buttons: {
+    border: "none",
+    color: "white",
+    padding: "15px 32px",
+    textAlign: "center",
+    display: "inline-block",
+    fontSize: "16px",
+    background: "green"
+  }
 }
 
 function Form() {
@@ -29,12 +38,14 @@ function Form() {
 
   return (
     <div>
+      <h1>Contact Me</h1>
       <form className="form">
         <input
           value={name}
           name="Name"
           onChange={handleInputChange}
           type="text"
+          style={styles.inputs}
           placeholder="Name"
         />
         <input
@@ -42,10 +53,11 @@ function Form() {
           name="email"
           onChange={handleInputChange}
           type="text"
+          style={styles.inputs}
           placeholder="Email"
         />
-        <textarea/>
-        <button type="button" onClick={handleFormSubmit}>
+        <textarea style={styles.inputs}/>
+        <button style={styles.buttons} type="button" onClick={handleFormSubmit}>
           Submit
         </button>
       </form>
