@@ -2,12 +2,9 @@ import React from 'react';
 
 const styles = {
     footer: {
-        position: 'fixed',
         left: 0,
         bottom: 0,
         width: '100%',
-        backgroundColor: '#219ade',
-        color: 'white',
         textAlign: 'center',
         padding: 20,
       },
@@ -17,7 +14,6 @@ const styles = {
         padding: 30,
       },
       feetLinks: {
-        color: "white",
         textDecoration: "none",
       }
 };

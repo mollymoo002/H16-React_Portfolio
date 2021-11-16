@@ -25,7 +25,6 @@ export default function Header() {
   return (
     <div>
       <header className="header">
-        <h1>Molly</h1>
         <Navbar currentPage={currentPage} handlePageChange={handlePageChange} />
       </header>
       <div>
