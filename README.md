@@ -9,9 +9,7 @@ This is a portfolio that was created using React. This is so potential employers
 - [Question](#question)
 ## Usage
 Please use the link [here](https://mollymoo002.github.io/H16-React_Portfolio/) to open the site and navigate through
-   ```md
-   ![alt text](assets/images/screenshot.png)
-   ```
+   ![Screenshot](src/components/resources/Capture.JPG)
 ## License
 MIT License
 
